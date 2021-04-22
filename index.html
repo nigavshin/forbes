@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forbes</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header container">
@@ -15,7 +16,15 @@
         <p class="header__text">Already a subscriber?</p>
         <a class="header__link" href="#">Sign in here</a>
       </div>
-      <button class="header__btn-close button">x</button>
+      <button class="header__btn-close button" type="button">
+        <img
+          class="header__close-img"
+          src="./img/union.svg"
+          width="10"
+          height="10"
+          alt="close-button"
+        />
+      </button>
     </header>
     <main class="main container">
       <ul class="main__list">
@@ -28,21 +37,87 @@
               within subscription settings in your account.
             </p>
           </div>
-          <button class="main__btn button">></button>
+          <button class="main__btn button" type="button">
+            <svg
+              class="main__svg"
+              width="21"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M17.428 12h-16v-2h16v2z" />
+              <path
+                d="M18.993 11.044l-5.657 5.657-1.414-1.414 5.656-5.657 1.415 1.414z"
+              />
+              <path
+                d="M17.578 12.372L11.92 6.715 13.335 5.3l5.657 5.657-1.414 1.415z"
+              />
+            </svg>
+          </button>
+        </li>
+        <li class="main__item main__item--active">
+          <div class="main__text-wrap">
+            <h2 class="main__title">Annual - Save 11%</h2>
+            <p class="main__price">$74.99</p>
+            <p class="main__description">
+              Subscription renews automatically. You can cancel at any time
+              within subscription settings in your account.
+            </p>
+          </div>
+          <button class="main__btn button" type="button">
+            <svg
+              class="main__svg"
+              width="21"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M17.428 12h-16v-2h16v2z" />
+              <path
+                d="M18.993 11.044l-5.657 5.657-1.414-1.414 5.656-5.657 1.415 1.414z"
+              />
+              <path
+                d="M17.578 12.372L11.92 6.715 13.335 5.3l5.657 5.657-1.414 1.415z"
+              />
+            </svg>
+          </button>
+        </li>
+        <li class="main__item">
+          <div class="main__text-wrap">
+            <h2 class="main__title">Two Year - Save 17%</h2>
+            <p class="main__price">$149</p>
+            <p class="main__description">
+              Subscription renews automatically. You can cancel at any time
+              within subscription settings in your account.
+            </p>
+          </div>
+          <button class="main__btn button" type="button">
+            <svg
+              class="main__svg"
+              width="21"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M17.428 12h-16v-2h16v2z" />
+              <path
+                d="M18.993 11.044l-5.657 5.657-1.414-1.414 5.656-5.657 1.415 1.414z"
+              />
+              <path
+                d="M17.578 12.372L11.92 6.715 13.335 5.3l5.657 5.657-1.414 1.415z"
+              />
+            </svg>
+          </button>
         </li>
       </ul>
     </main>
     <footer class="footer container">
       <div class="footer__content">
-        <a class="footer__link-more" href="#">Learn more</a>
-        <a class="footer__link-pay" href="#"
-          ><img
-            class="footer__img"
-            src="./img/paypal.svg"
-            width="102"
-            height="12"
-            alt="payments-system"
-        /></a>
+        <a class="footer__link" href="#">Learn more</a
+        ><img
+          class="footer__img"
+          src="./img/paypal.svg"
+          width="102"
+          height="12"
+          alt="payments-system"
+        />
       </div>
     </footer>
   </body>
