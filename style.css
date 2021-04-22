@@ -246,3 +246,7 @@ svg path {
   font-size: 12px;
   margin-bottom: 10px;
 }
+
+.footer__svg {
+  fill: #333333;
+}
